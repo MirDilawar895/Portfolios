@@ -1,0 +1,23 @@
+/*=========== GREEN #79d70f ============*/
+
+.color-block, .navigator-active, .arrow-next a h5, .arrow-prev a h5, .description-btn .btn-icon, .education-box:after, .experince-box:after, .proggress, .owl-dots .owl-dot span, .blog .blog-card-button a, .grid li figure div, .separator:after{
+    background: #79d70f !important;
+}
+.arrow-next:hover, .arrow-prev:hover, ul.navigator-list li a:hover, .back:hover a{
+    background: #79d70f !important;
+}
+.description-btn, .home-text h1 span, b.is-visible, .about-title h1 span, .about-text h4 span, .about-box h1, .item-period, .card-icon, .services-title h1 span, .testimonial-name, .portfolio-title span, .blog-card-img a:hover, .blog-card-text span, .blog-title span, .article-meta span i, figcaption h2, figcaption a, figcaption a:hover, .contact-title span, .contactform i, .page-title span, #footer span, .nav-active  {
+    color: #79d70f !important;
+}
+.education-box:before, .education-box, .experince-box:before, .experince-box {
+	    border-color: #79d70f !important;   
+}
+.item{
+	border-top: 3px solid #79d70f !important;
+}
+.img-comp-slider{
+    background-color: #79d70f !important;
+}
+.blog-card-img, .form-control:focus, .contactform i{
+	border-color: #79d70f !important;
+}

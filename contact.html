@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+      <meta name="author" content="DILAWAR">
+    			<!-- favicon -->      
+          <link rel="shortcut icon" href="Images/id.png">
+    			<!-- google font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    			<!-- google font roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+	
+    			<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+
+    			<!-- Material Design icons -->
+	<link rel="stylesheet" type="text/css" href="Fonts/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    			<!-- color -->
+  <link rel="stylesheet" type="text/css" href="CSS/Color/yellow.css" id="switcher">
+
+	    		<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+
+
+
+<body onload="myFunction()" style="margin:0;">
+  <!---------------------- preloader starts ---------------------->
+<div id="loader"></div>
+  <!---------------------- end of preloader ---------------------->	
+
+  <!---------------------- navigator starts ---------------------->
+<div class="main-navigator">
+  <span class="mdi mdi-menu"></span>
+  <ul class="navigator-list">
+    <li><a class="mdi mdi-home" href="index.html"></a></li>
+    <li><a class="mdi mdi-account" href="about.html"></a></li>
+    <li><a class="mdi mdi-face-agent" href="services.html"></a></li>
+    <li><a class="mdi mdi-briefcase-variant" href="portfolio.html"></a></li>
+    <!-- <li><a class="mdi mdi-forum" href="blog.html"></a></li> -->
+    <li style="z-index: 1"><a class="mdi mdi-account-box navigator-active" href="contact.html"></a></li>
+  </ul>
+</div>
+  <!---------------------- end of navigator ---------------------->
+
+
+  <!---------------------- mobile-menu starts ---------------------->
+
+<nav class="mobile-nav">
+  <div class="container">
+    <div class="page-title col-10 px-0 float-left">
+      <h2>Contact <span>Me</span></h2>
+    </div>
+    <button  class="trigger px-0 col-2">
+        <span></span>
+        <span></span>
+        <span></span> 
+    </button>
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="mdi mdi-home mr-3"></i>HOME</a></li>
+        <li><a href="about.html"><i class="mdi mdi-account mr-3"></i>ABOUT</a></li>
+        <li><a href="services.html"><i class="mdi mdi-face-agent mr-3"></i>SERVICES</a></li>
+        <li><a href="portfolio.html"><i class="mdi mdi-briefcase-variant mr-3"></i>PORTFOLIO</a></li>
+        <!-- <li><a href="blog.html"><i class="mdi mdi-forum mr-3"></i>BLOG</a></li> -->
+        <li><a class="nav-active" href="contact.html"><i class="mdi mdi-account-box mr-3"></i>CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+  <!---------------------- end of mobile-menu ---------------------->
+
+
+  <!---------------------- next & prev btn starts ---------------------->
+
+<div class="main-arrow" style="top: calc(50vh - 25px)">
+  <div class="arrow-prev"><a class="mdi mdi-menu-up" href="blog.html"><h5>Blog</h5></a></div>
+
+</div>
+  <!---------------------- end of next & prev btn ---------------------->
+
+
+
+  <!---------------------- color switcher starts ---------------------->
+
+<div class="switcher-wrapper">
+  <button class="switcher-trigger"><i class="mdi mdi-cog mdi-spin"></i></button>
+  <div class="switcher-inner">
+    <h6>CHOOSE STYLE</h6>
+    <ul class="color-list">
+      <li class="green"><button class="mdi mdi-check"></button></li>
+      <li class="blue"><button class="mdi mdi-check"></button></li>
+      <li class="pink"><button class="mdi mdi-check"></button></li>
+      <li class="orange"><button class="mdi mdi-check"></button></li>
+      <li class="purple"><button class="mdi mdi-check"></button></li>
+      <li class="yellow"><button class="mdi mdi-check"></button></li>
+    </ul>
+  </div>
+</div>
+
+  <!---------------------- end of color switcher ---------------------->
+
+
+  <!---------------------- contact starts ---------------------->
+
+<section class="contact py-5" id="contact">
+  <div class="container">
+    <div class="row">
+         <!-- title starts -->
+      <div class="col-lg-12">
+        <div class="contact-title pt-3 pb-5 text-center">
+          <h1>Contact <span>Me</span></h1>
+          <div class="separator d-none d-lg-block"></div>
+        </div>
+      </div>
+        <!-- end of title -->
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-4 pb-3 text-center">
+        <div class="contactform">
+          <i class="mdi mdi-email"></i>
+          <h5>Email Us <span class="main-color-text">At</span></h5>
+          <p>mirdilawar895@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 pb-3 text-center">
+        <div class="contactform">
+          <i class="mdi mdi-phone"></i>
+          <h5>Call Us <span class="main-color-text">On</span></h5>
+          <p>+92 342 0647045</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 pb-3 text-center">
+        <div class="contactform">
+          <i class="mdi mdi-map-marker"></i>
+          <h5>Visit <span class="main-color-text">Website</span></h5>
+          <p>202, Mian Street Sook Kalan.</p>
+        </div>
+      </div>
+    </div>
+    <form class="" action="#" method="POST" href="index.html">
+      <div class="row pt-2">
+        <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name*" class="form-control " name="Name" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="email" placeholder="Your Email*" class="form-control " name="Email" required>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="form-group">
+            <input type="text" placeholder="Your Subsect*" class="form-control form-control-lg mb-3 " name="Subsect" required>
+            <textarea style="height: 120px" class="form-control form-control-lg " placeholder="Your Message" name="Message" rows="3"cols="50" required></textarea>
+          </div>
+              <div class="col-sm-12 col-md-4 ml-auto p-0">
+                <button type="submit" name="button" class="description-btn" href="index.html">
+                  <span class="name-description">SEND MESSAGE</span>
+                   <div class="btn-icon">
+                    <i class="mdi mdi-send"></i>
+                  </div>
+               </button>
+           </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+  <!---------------------- end of contact ---------------------->
+
+  <!---------------------- footer ---------------------->
+
+<section id="footer" class="footer py-5">
+  <div class="text-center">
+      <p>@ 2022 &copy; All Rights Reserved. Design by <span>UOG.</span></p>
+  </div>
+</section>
+
+  <!---------------------- end of footer ---------------------->
+
+
+    			<!-- jquery.js -->
+	<script src="JS/jquery-3.5.1.js"></script>
+
+	    		<!-- popper.js -->
+	<script src="JS/popper.js"></script>
+
+    			<!-- bootstrap.min.js -->
+	<script src="JS/bootstrap.min.js"></script>
+
+    			<!-- waypoints.js -->   			
+	<script src="JS/waypoints.js"></script>
+
+    			<!-- jquery.counterup.js -->
+    <script src="JS/jquery.counterup.min.js"></script>
+
+       			<!-- jquery.lineProgressbar.js -->
+    <script src="JS/jquery.lineProgressbar.js"></script>
+ 
+    			<!-- script.js -->	
+	<script src="JS/script.js"></script>
+
+
+<!-- preloader -->
+<script>
+var myVar;
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+}
+</script>
+
+</body>
+
+</html>

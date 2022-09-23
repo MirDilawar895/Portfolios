@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+      <meta name="author" content="DILAWAR">
+    			<!-- favicon -->      
+    <link rel="shortcut icon" href="Images/id.png">
+    			<!-- google font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    			<!-- google font roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+	
+    			<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+
+    			<!-- Material Design icons -->
+	<link rel="stylesheet" type="text/css" href="Fonts/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    			<!-- color -->
+	<link rel="stylesheet" type="text/css" href="CSS/Color/yellow.css" id="switcher">
+
+	    	    <!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+
+
+
+<body onload="myFunction()" style="margin:0;">
+  <!---------------------- preloader starts ---------------------->
+<div id="loader"></div>
+  <!---------------------- end of preloader ---------------------->	
+
+  <!---------------------- navigator starts ---------------------->
+<div class="main-navigator">
+  <span class="mdi mdi-menu"></span>
+  <ul class="navigator-list">
+    <li><a class="mdi mdi-home" href="index.html"></a></li>
+    <li style="z-index: 1"><a class="mdi mdi-account navigator-active" href="about.html"></a></li>
+    <li><a class="mdi mdi-face-agent" href="services.html"></a></li>
+    <li><a class="mdi mdi-briefcase-variant" href="portfolio.html"></a></li>
+    <!-- <li><a class="mdi mdi-forum" href="blog.html"></a></li> -->
+    <li><a class="mdi mdi-account-box" href="contact.html"></a></li>
+  </ul>
+</div>
+  <!---------------------- end of navigator ---------------------->
+
+
+  <!---------------------- mobile-menu starts ---------------------->
+
+<nav class="mobile-nav">
+	<div class="container">
+		<div class="page-title col-10 px-0 float-left">
+			<h2>ABOUT <span>ME</span></h2>
+		</div>
+		<button  class="trigger px-0 col-2">
+		    <span></span>
+		    <span></span>
+		    <span></span>	
+		</button>
+		<div class="nav-menu">
+			<ul class="nav-links">
+				<li><a href="index.html"><i class="mdi mdi-home mr-3"></i>HOME</a></li>
+				<li><a class="nav-active" href="about.html"><i class="mdi mdi-account mr-3"></i>ABOUT</a></li>
+				<li><a href="services.html"><i class="mdi mdi-face-agent mr-3"></i>SERVICES</a></li>
+				<li><a href="portfolio.html"><i class="mdi mdi-briefcase-variant mr-3"></i>PORTFOLIO</a></li>
+				<!-- <li><a href="blog.html"><i class="mdi mdi-forum mr-3"></i>BLOG</a></li> -->
+				<li><a href="contact.html"><i class="mdi mdi-account-box mr-3"></i>CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+
+</nav>
+  <!---------------------- end of mobile-menu ---------------------->
+
+
+  <!---------------------- next & prev btn starts ---------------------->
+
+<div class="main-arrow" style="top: calc(50vh - 100px);">
+  <div class="arrow-prev"><a class="mdi mdi-menu-up" href="index.html"><h5>Home</h5></a></div>
+  <div class="arrow-next"><a class="mdi mdi-menu-down" href="services.html"><h5>Services</h5></a></div>
+</div>
+  <!---------------------- end of next & prev btn ---------------------->
+
+
+
+  <!---------------------- color switcher starts ---------------------->
+
+<div class="switcher-wrapper">
+	<button class="switcher-trigger"><i class="mdi mdi-cog mdi-spin"></i></button>
+	<div class="switcher-inner">
+		<h6>CHOOSE STYLE</h6>
+		<ul class="color-list">
+			<li class="green"><button class="mdi mdi-check"></button></li>
+			<li class="blue"><button class="mdi mdi-check"></button></li>
+			<li class="pink"><button class="mdi mdi-check"></button></li>
+			<li class="orange"><button class="mdi mdi-check"></button></li>
+			<li class="purple"><button class="mdi mdi-check"></button></li>
+			<li class="yellow"><button class="mdi mdi-check"></button></li>
+		</ul>
+	</div>
+</div>
+
+  <!---------------------- end of color switcher ---------------------->
+
+
+
+  <!---------------------- about starts ---------------------->
+<section class="about py-5" id="about">
+	<div class="container">
+		<div class="row">
+      <!-- title starts -->
+			<div class="col-lg-12">
+				<div class="about-title py-3 text-center">
+					<h1>ABOUT <span>ME</span></h1>
+					<div class="separator d-none d-lg-block"></div>
+				</div>
+			</div>
+	  <!-- end of title -->
+
+			<div class="col-lg-6 pt-5 pr-lg-5">
+				<div class="about-text">
+					<h4>Hello! I'M <span>Mr. DILAWAR</span></h4>
+					<p>I am an efficient full-stack developer in Python/Django. I have made a lot of web applications with Python/Django and React. I am fluent in Python, Django, React, and REST(Django-REST-framework). I’m also an expert in Database architecture and Software System Development Life Cycle (SDCL).</p>
+			    </div>
+					<!-- <div class="col-sm-12 col-md-6 p-0">
+			          <a class="description-btn" href="#">
+				         <span class="name-description">DOWNLOAD CV</span>
+					      <div class="btn-icon">
+					        <i class="mdi mdi-download"></i>
+					   </div>
+			        </a>
+      			</div> -->
+			  </div>
+			<div class="col-lg-6 pt-5 mt-4">
+				<div class="about-details">
+					<ul>
+						<li><span>Age :</span><span> 25</span></li>
+						<li><span>Nationality :</span><span> Pakistan</span></li>
+						<li><span>Freelance :</span><span> Available</span></li>
+						<li><span>Address :</span><span> Gujrat</span></li>
+					</ul>
+					<ul>
+						<li><span>Phone :</span><span> +92 3420647045</span></li>
+						<li><span>E-mail :</span><span> mirdilawar895@gmail.com</span></li>
+						<li><span>Skype :</span><span> @DILAWR</span></li>
+						<li><span>Language :</span><span> Urdu, English</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+				<div class="about-box">
+					<h1 class="text-right"><span>1</span></h1>
+					<h5>YEARS OF <br> EXPERIENCE</h5>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+				<div class="about-box">
+					<h1 class="text-right"><span>10+</span></h1>
+					<h5>COMPLETED <br> PROJECTS</h5>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+				<div class="about-box">
+					<h1 class="text-right"><span>10+</span></h1>
+					<h5>HAPPY <br> CLIENTS</h5>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+				<div class="about-box">
+					<h1 class="text-right"><span>3+</span></h1>
+					<h5>AWARDS <br> WON</h5>
+				</div>
+			</div>
+		</div>
+ <!---------------------- EXPERIENCE & EDUCATION ---------------------->
+		<div class="row py-5">
+			<div class="col-lg-12 text-center">
+				<h3>EXPERIENCE & EDUCATION</h3>
+			</div>
+			<div class="col-lg-6 pt-5">
+				<h4 class="education-title text-center">EDUCATION</h4>
+				<div class="education pl-4 mt-5">
+					<div class="education-box">
+						<h5 class="box-title">Bachelor degree in Software Engineering </h5>
+						<span class="item-period">2017-2021</span>
+						<span class="item-small"> | UOG</span>
+						<p class="box-description">BS in Software Engineering
+							University Of Gujrat(UOG)
+							2017 - 2021.</p>
+					</div>
+					<div class="education-box">
+						<h5 class="box-title">Intermediate</h5>
+						<span class="item-period">2014-2016</span>
+						<span class="item-small"> | PCJ</span>
+						<p class="box-description">Intermediat In Computer Science.</p>
+					</div>
+					<div class="education-box">
+						<h5 class="box-title">Matric</h5>
+						<span class="item-period">2014</span>
+						<span class="item-small"> | Gujrat</span>
+						<p class="box-description">Matric in Computer Science.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 pt-5">
+				<h4 class="experince-title text-center">EXPERIENCE</h4>
+				<div class="experince pl-4 mt-5">
+					<div class="experince-box">
+						<h5 class="box-title"> Full Stack Web Developer </h5>
+						<span class="item-period">2021-2022</span>
+						<span class="item-small"> | Softsmiths</span>
+						<p class="box-description">Softsmiths is a Web Designing and Web Development Company.</p>
+					</div>
+					<div class="experince-box">
+						<h5 class="box-title">Django Developer</h5>
+						<span class="item-period">2022</span>
+						<span class="item-small"> | Nerd Studio</span>
+						<p class="box-description">Nerd Studio Software Solutions journey is started from Business Incubation at University of Gujrat.We started Nerd Studio Software Solutions startup  at 2017. Nerd Studio Software Solutions is a software-based company located at Gujrat.</p>
+					</div>
+					<!-- <div class="experince-box">
+						<h5 class="box-title">Specialization Course</h5>
+						<span class="item-period">2017</span>
+						<span class="item-small"> | The IT Aid</span>
+						<p class="box-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+					</div> -->
+				</div>
+			</div>
+		</div>
+  <!---------------------- end of EXPERIENCE & EDUCATION ---------------------->	
+
+  <!---------------------- skill ---------------------->
+<div class="row">
+	<div class="col-lg-12 text-center pb-5">
+		<h3>SKILLS</h3>
+	</div>
+	<div class="col-lg-6">
+		<p class="skill-name">HTML</p>
+		<div id="html"></div>
+		<p class="skill-name">CSS</p>
+		<div id="css"></div>
+		<p class="skill-name">JavaScript</p>
+		<div id="java"></div>
+		<p class="skill-name">Database </p>
+		<div id="jquery"></div>
+	</div>
+	<div class="col-lg-6">
+		<p class="skill-name">Django</p>
+		<div id="wp"></div>
+		<p class="skill-name">Web Design</p>
+		<div id="web-des"></div>
+		<p class="skill-name">React</p>
+		<div id="php"></div>
+		<p class="skill-name">Web Development</p>
+		<div id="web-dev"></div>
+	</div>
+</div>
+
+
+
+
+  <!---------------------- end of skill ---------------------->		
+	</div>
+</section>
+
+  <!---------------------- end of about ---------------------->
+
+
+
+
+
+    			<!-- jquery.js -->
+	<script src="JS/jquery-3.5.1.js"></script>
+
+	    		<!-- popper.js -->
+	<script src="JS/popper.js"></script>
+
+    			<!-- bootstrap.min.js -->
+	<script src="JS/bootstrap.min.js"></script>
+
+       			<!-- jquery.lineProgressbar.js -->
+    <script src="JS/jquery.lineProgressbar.js"></script>
+ 
+    			<!-- script.js -->	
+	<script src="JS/script.js"></script>
+
+
+<!-- preloader -->
+<script>
+var myVar;
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+}
+</script>
+
+</body>
+
+</html>

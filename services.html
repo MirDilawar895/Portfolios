@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+      <meta name="author" content="DILAWAR">
+    			<!-- favicon -->      
+    <link rel="shortcut icon" href="Images/id.png">
+    			<!-- google font poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    			<!-- google font roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+	
+    			<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+
+    			<!-- Material Design icons -->
+	<link rel="stylesheet" type="text/css" href="Fonts/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    			<!-- color -->
+  <link rel="stylesheet" type="text/css" href="CSS/Color/yellow.css" id="switcher">
+
+	    		<!-- owl.carousel -->
+	<link rel="stylesheet" type="text/css" href="CSS/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/owl.theme.default.min.css">
+
+          <!-- style.css -->
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+
+
+
+<body onload="myFunction()" style="margin:0;">
+  <!---------------------- preloader starts ---------------------->
+<div id="loader"></div>
+  <!---------------------- end of preloader ---------------------->	
+
+  <!---------------------- navigator starts ---------------------->
+<div class="main-navigator">
+  <span class="mdi mdi-menu"></span>
+  <ul class="navigator-list">
+    <li><a class="mdi mdi-home" href="index.html"></a></li>
+    <li><a class="mdi mdi-account" href="about.html"></a></li>
+    <li style="z-index: 1"><a class="mdi mdi-face-agent navigator-active" href="services.html"></a></li>
+    <li><a class="mdi mdi-briefcase-variant" href="portfolio.html"></a></li>
+    <!-- <li><a class="mdi mdi-forum" href="blog.html"></a></li> -->
+    <li><a class="mdi mdi-account-box" href="contact.html"></a></li>
+  </ul>
+</div>
+  <!---------------------- end of navigator ---------------------->
+
+
+  <!---------------------- mobile-menu starts ---------------------->
+
+<nav class="mobile-nav">
+  <div class="container">
+    <div class="page-title col-10 px-0 float-left">
+      <h2>MY <span>SERVICES</span></h2>
+    </div>
+    <button  class="trigger px-0 col-2">
+        <span></span>
+        <span></span>
+        <span></span> 
+    </button>
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="mdi mdi-home mr-3"></i>HOME</a></li>
+        <li><a href="about.html"><i class="mdi mdi-account mr-3"></i>ABOUT</a></li>
+        <li><a class="nav-active" href="services.html"><i class="mdi mdi-face-agent mr-3"></i>SERVICES</a></li>
+        <li><a href="portfolio.html"><i class="mdi mdi-briefcase-variant mr-3"></i>PORTFOLIO</a></li>
+        <!-- <li><a href="blog.html"><i class="mdi mdi-forum mr-3"></i>BLOG</a></li> -->
+        <li><a href="contact.html"><i class="mdi mdi-account-box mr-3"></i>CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+  <!---------------------- end of mobile-menu ---------------------->
+
+
+  <!---------------------- next & prev btn starts ---------------------->
+
+<div class="main-arrow" style="top: calc(50vh - 100px);">
+  <div class="arrow-prev"><a class="mdi mdi-menu-up" href="about.html"><h5>About</h5></a></div>
+  <div class="arrow-next"><a class="mdi mdi-menu-down" href="portfolio.html"><h5>Portfolio</h5></a></div>
+</div>
+  <!---------------------- end of next & prev btn ---------------------->
+
+
+
+  <!---------------------- color switcher starts ---------------------->
+
+<div class="switcher-wrapper">
+  <button class="switcher-trigger"><i class="mdi mdi-cog mdi-spin"></i></button>
+  <div class="switcher-inner">
+    <h6>CHOOSE STYLE</h6>
+    <ul class="color-list">
+      <li class="green"><button class="mdi mdi-check"></button></li>
+      <li class="blue"><button class="mdi mdi-check"></button></li>
+      <li class="pink"><button class="mdi mdi-check"></button></li>
+      <li class="orange"><button class="mdi mdi-check"></button></li>
+      <li class="purple"><button class="mdi mdi-check"></button></li>
+      <li class="yellow"><button class="mdi mdi-check"></button></li>
+    </ul>
+  </div>
+</div>
+
+  <!---------------------- end of color switcher ---------------------->
+
+
+  <!---------------------- services starts ---------------------->
+
+<section class="services py-5" id="services">
+  <div class="container">
+    <div class="row">
+            <!-- title starts -->
+      <div class="col-lg-12 mb-5">
+        <div class="services-title text-center py-3">
+         <h1>MY <span>SERVICES</span></h1>
+         <div class="separator d-none d-lg-block"></div>
+        </div>
+      </div>
+            <!-- end of title -->
+            
+        <!-- card-1 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-chart-bar"></i>
+          </div>
+          <div class="card-title">
+            <h4>Graphic Design</h4>
+          </div>
+          <div class="card-info">
+            <p>I offers Brochure, Flyer and Packaging Design Services .</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-1 -->
+
+        <!-- card-2 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-palette"></i>
+          </div>
+          <div class="card-title">
+            <h4>Front End Design</h4>
+          </div>
+          <div class="card-info">
+            <p>Provide service to create Html css and Bootstrap websites.</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-2 -->
+
+        <!-- card-3 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-cloud-download"></i>
+          </div>
+          <div class="card-title">
+            <h4>Backend Design</h4>
+          </div>
+          <div class="card-info">
+            <p>Your web application deserve a robust backend to boost preformance .</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-3 -->
+
+        <!-- card-4 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-router-wireless"></i>
+          </div>
+          <div class="card-title">
+            <h4>API Integration</h4>
+          </div>
+          <div class="card-info">
+            <p>Using RestfulApi I can create optimised endpoints for smooth communication between software componenets .</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-4 -->
+
+        <!-- card-5 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-cellphone-link"></i>
+          </div>
+          <div class="card-title">
+            <h4>Responsive Design</h4>
+          </div>
+          <div class="card-info">
+            <p>Responsive web design is about creating web pages that look good on all devices.Responsive design relies on proportion-based grid.</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-5 -->
+
+        <!-- card-6 starts -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-hammer-screwdriver"></i>
+          </div>
+          <div class="card-title">
+            <h4>Deployments</h4>
+          </div>
+          <div class="card-info">
+            <p>With the right deployement model switching to a cloud based infrastructure can be cost effective step.</p>
+          </div>
+        </div>
+      </div>
+        <!-- end of card-6 -->
+
+        <!-- card-7 starts -->
+      <!-- <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-wordpress"></i>
+          </div>
+          <div class="card-title">
+            <h4>WordPress</h4>
+          </div>
+          <div class="card-info">
+            <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+          </div>
+        </div>
+      </div> -->
+        <!-- end of card-7 -->
+
+        <!-- card-8 starts -->
+      <!-- <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-brush"></i>
+          </div>
+          <div class="card-title">
+            <h4>Unique Design</h4>
+          </div>
+          <div class="card-info">
+            <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+          </div>
+        </div>
+      </div> -->
+        <!-- end of card-8 -->
+
+        <!-- card-9 starts -->
+      <!-- <div class="col-md-6 col-lg-4">
+        <div class="card-body text-center">
+          <div class="card-icon">
+            <i class="mdi mdi-handshake"></i>
+          </div>
+          <div class="card-title">
+            <h4>Life Time Support</h4>
+          </div>
+          <div class="card-info">
+            <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+          </div>
+        </div>
+      </div> -->
+        <!-- end of card-9 -->
+
+    </div>
+  </div>
+    <!-- <div class="col-lg-12 text-center py-5">
+    <h3>TESTIMONIAL</h3>
+  </div> -->
+  <!-- <section class="testimonials " id="testimonials"> -->
+  <!-- <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel"> -->
+
+           
+            <!-- <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="Images/testi-1.jpg" alt="testimonial_image">
+                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+              <div class="testimonial-name">EMILIANO AQUILANI</div>
+            </div> -->
+            
+            <!-- <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="Images/testi-2.jpg" alt="testimonial_image">
+                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+              <div class="testimonial-name">ANNA ITURBE</div>
+            </div> -->
+<!--            
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="Images/testi-3.jpg" alt="testimonial_image">
+                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              </div>
+              <div class="testimonial-name">LARA ATKINSON</div>
+            </div> -->
+            
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+</section>
+
+
+
+  <!---------------------- end of services ---------------------->
+
+
+
+
+
+
+
+    			<!-- jquery.js -->
+	<script src="JS/jquery-3.5.1.js"></script>
+
+	    		<!-- popper.js -->
+	<script src="JS/popper.js"></script>
+
+    			<!-- bootstrap.min.js -->
+	<script src="JS/bootstrap.min.js"></script>
+
+    			<!-- waypoints.js -->   			
+	<script src="JS/waypoints.js"></script>
+
+    			<!-- jquery.counterup.js -->
+    <script src="JS/jquery.counterup.min.js"></script>
+
+       			<!-- jquery.lineProgressbar.js -->
+    <script src="JS/jquery.lineProgressbar.js"></script>
+
+            <!-- owl.carousel.min.js -->
+    <script src="JS/owl.carousel.min.js"></script>
+ 
+    			<!-- script.js -->	
+	<script src="JS/script.js"></script>
+
+
+<!-- preloader -->
+<script>
+var myVar;
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+}
+</script>
+
+</body>
+
+<!-- Mirrored from kawsar4469.github.io/krthemes/Dark/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Feb 2022 10:22:23 GMT -->
+</html>
